@@ -8,6 +8,8 @@ from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
 
+st.set_page_config(layout="wide")
+
 
 DATA_URL = (
     "OVO-absolute-data.csv"
