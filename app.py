@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
 import base64
 
-
+st.set_page_config(page_title=None, page_icon=None, layout='wide', initial_sidebar_state='auto')
 
 
 DATA_URL = (
